@@ -1,0 +1,23 @@
+{
+    "name": "dreamcommerce/advanced-app",
+    "description": "Advanced app-template",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.3",
+        "dreamcommerce/shop-appstore-lib": "~1.0.2",
+        "guzzlehttp/guzzle": "~6.1.1",
+        "monolog/monolog": "~1.18.1",
+        "dreamcommerce/bugtracker": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "DreamCommerce\\": "src/DreamCommerce"
+        }
+    },
+    "authors": [
+        {
+            "name": "Konrad Kotarba",
+            "email": "konrad.kotarba@shoper.pl"
+        }
+    ]
+}
